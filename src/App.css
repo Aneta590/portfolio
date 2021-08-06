@@ -1,22 +1,61 @@
-.introduction{
-  text-align: center; 
+.introduction {
+  text-align: center;
+  
 }
-img{
-  width:150px;
+img {
+  width: 150px;
   border-radius: 50%;
-  margin-top: 50px; 
+  margin-top: 50px;
+  border-bottom: grey 1px solid;
+  box-shadow: 1px 5px 22px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 22px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 22px -4px rgba(0, 0, 0, 0.75);
 }
-ul li{
- list-style: none;
-}
-h3{
-  color:#ffa500;
+
+h3 {
+  color: #ffa500;
   text-transform: uppercase;
+  margin-top: 50px;
 }
-.fontlink{
- max-width:150px;
-  display: flex;
-  justify-content: space-around;
+h4 {
+  font-weight: bold;
+}
+
+.fontlink {
+padding-right: 20px;
+}
+.fontlink a  {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px; 
+}
+.menu {
+  background-color: #fcaa11;
+  width: 100%;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 1px 5px 22px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 22px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 22px -4px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.dropdown {
+  font-size: 50px;
+  margin-left: 20px;
+}
+p{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-left: 20px;
+ margin-right: 20px;
+
+}
+h4{
+  color: grey;
 }
