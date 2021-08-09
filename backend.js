@@ -12,7 +12,7 @@ mongoose.connect(
     useNewUrlParser: true,
   }
 );
-app.use(express.static("/frontend/build"));
+app.use(express.static("S/build"));
 app.use(express.json());
 app.use(cors());
 app.listen(port, () => {
