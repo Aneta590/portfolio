@@ -2,12 +2,16 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-static": "^1.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
     "react-dom": "^17.0.2",
@@ -16,10 +20,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "dev": "concurrently \"npm run frontend\" \"npm run ./src/backend\"",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "frontend": "react-scripts start",
     "backend": "nodemon backend.js",
-    "start": "node ./src/backend.js",
+    "start": "node backend.js",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
@@ -43,5 +47,17 @@
   },
   "devDependencies": {
     "concurrently": "^6.2.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aneta590/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aneta590/portfolio/issues"
+  },
+  "homepage": "https://github.com/Aneta590/portfolio#readme"
 }
