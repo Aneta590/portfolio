@@ -5,6 +5,7 @@ import photo from "./img/photo.png";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsTools } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import {IoIosColorPalette} from "react-icons/io"
 import Dropdown from "react-bootstrap/Dropdown";
 function App() {
   return (
